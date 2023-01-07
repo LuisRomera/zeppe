@@ -52,7 +52,7 @@ RUN mv interpreter-setting.json /zeppelin/interpreter/python/interpreter-setting
 RUN wget https://raw.githubusercontent.com/LuisRomera/zeppe/main/notebook/java_2HNRCXEXV.zpln
 RUN mv java_2HNRCXEXV.zpln /zeppelin/notebook/java_2HNRCXEXV.zpln
 
-RUN https://raw.githubusercontent.com/LuisRomera/zeppe/main/conf/interpreter.json
+RUN wget https://raw.githubusercontent.com/LuisRomera/zeppe/main/conf/interpreter.json
 RUN mv interpreter.json /zeppelin/conf/interpreter.json
 
 
