@@ -17,6 +17,7 @@ RUN pip install grpcio
 RUN pip install protobuf
 RUN pip install pandas
 RUN pip install matplotlib
+RUN pip install kafka-python 
 
 
 #RUN apt install -y scala
